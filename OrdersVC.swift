@@ -48,6 +48,10 @@ class OrdersVC: UIViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        print("lalala")
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         if sortedList.count == 0 {
             tableView.setNoDataPlaceholder()
