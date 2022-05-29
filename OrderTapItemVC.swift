@@ -40,12 +40,8 @@ class OrderTapItemVC: UIViewController {
         } catch {print( "fetch failed")}
         
     }
-    //edit button
-//    @IBAction func editFromTapItem(_ sender: Any) {
-//        if let destSeg = segue.destination as? OrdersDetailVC{
-//            destSeg.rowSelected =  rowSelected
-//        }
-//    }
-    
-    
+//  MARK:  edit button
+    @IBAction func editFromTapItem(_ sender: Any) {
+        print("Hello")
+    }
 }

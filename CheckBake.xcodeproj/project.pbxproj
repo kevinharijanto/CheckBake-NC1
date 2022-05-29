@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E75560428278B5000B2B0E9 /* OrdersForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75560328278B5000B2B0E9 /* OrdersForm.swift */; };
+		0E7556082827A8A300B2B0E9 /* OrdersFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7556072827A8A300B2B0E9 /* OrdersFormViewController.swift */; };
 		0EB36D302819851000315BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB36D2F2819851000315BB1 /* AppDelegate.swift */; };
 		0EB36D322819851000315BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB36D312819851000315BB1 /* SceneDelegate.swift */; };
 		0EB36D342819851000315BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB36D332819851000315BB1 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E75560328278B5000B2B0E9 /* OrdersForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersForm.swift; sourceTree = "<group>"; };
+		0E7556072827A8A300B2B0E9 /* OrdersFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersFormViewController.swift; sourceTree = "<group>"; };
 		0EB36D2C2819851000315BB1 /* CheckBake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB36D2F2819851000315BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EB36D312819851000315BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		0EB36D232819851000315BB1 = {
 			isa = PBXGroup;
 			children = (
+				0E7556072827A8A300B2B0E9 /* OrdersFormViewController.swift */,
+				0E75560328278B5000B2B0E9 /* OrdersForm.swift */,
 				0EB36D582819A33E00315BB1 /* Order+CoreDataClass.swift */,
 				0EB36D592819A33E00315BB1 /* Order+CoreDataProperties.swift */,
 				0EB36D5028198EE100315BB1 /* OrdersDetailVC.swift */,
@@ -163,8 +169,10 @@
 				0EB36D4F28198B9F00315BB1 /* OrdersVC.swift in Sources */,
 				0EB36D342819851000315BB1 /* ViewController.swift in Sources */,
 				0EB36D302819851000315BB1 /* AppDelegate.swift in Sources */,
+				0E75560428278B5000B2B0E9 /* OrdersForm.swift in Sources */,
 				0EB36D5A2819A33E00315BB1 /* Order+CoreDataClass.swift in Sources */,
 				0ECA5F89281B95620089A425 /* OrderTapItemVC.swift in Sources */,
+				0E7556082827A8A300B2B0E9 /* OrdersFormViewController.swift in Sources */,
 				0ECA5F8B281B96120089A425 /* OrdersCell.swift in Sources */,
 				0EB36D322819851000315BB1 /* SceneDelegate.swift in Sources */,
 				0EB36D5128198EE100315BB1 /* OrdersDetailVC.swift in Sources */,

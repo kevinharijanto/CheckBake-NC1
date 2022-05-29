@@ -48,25 +48,7 @@ class OrdersDetailVC: UIViewController {
             } catch {
                 print("context save error")
             }
-        } //edit
-//        else{
-//            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Note")
-//            do{
-//                let results:NSArray = try context.fetch(request) as NSArray
-//                for result in results{
-//                    let order = result as! Order
-//                    
-//                    order.title = titleField.text
-//                    order.desc = descField.text
-//                    try context.save()
-//                    performSegue(withIdentifier: "goToOrdersList", sender: nil)
-//                    }
-//                }
-//            }
-//            catch {
-//                print("Fetch Failed")
-//            }
-//        }
+        } 
     }
     
 }

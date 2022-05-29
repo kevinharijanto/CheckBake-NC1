@@ -19,8 +19,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var dashboardScheduledOutlet: UILabel!
     @IBOutlet weak var dashboardPastOutlet: UILabel!
     
+    @IBOutlet weak var allRoundedCorner: UIView!
+    @IBOutlet weak var todayRoundedCorner: UIView!
+    @IBOutlet weak var scheduledRoundedCorner: UIView!
+    @IBOutlet weak var pastRoundedCorner: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        allRoundedCorner.layer.cornerRadius = 15
+        allRoundedCorner.layer.masksToBounds = true
+        todayRoundedCorner.layer.cornerRadius = 15
+        todayRoundedCorner.layer.masksToBounds = true
+        scheduledRoundedCorner.layer.cornerRadius = 15
+        scheduledRoundedCorner.layer.masksToBounds = true
+        pastRoundedCorner.layer.cornerRadius = 15
+        pastRoundedCorner.layer.masksToBounds = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
